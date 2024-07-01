@@ -1,0 +1,116 @@
+main{
+    width: 1200px;
+    margin: auto;
+}
+#grid{
+    display: inline-block;
+    color: red;
+    font-size: 50px;
+    padding-right: 160px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+p{
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 12px;
+}
+#mid{
+    display: block;
+    color: rgba(94, 94, 94, 0.637);
+    margin-left: 400px;
+}
+.material-symbols-outlined{
+    margin-left: 20px;
+}
+sup{
+    font-size: 8px;
+    color: red;
+}
+#tp{
+    color: red;
+}
+#main{
+    width: 1200px;
+    margin: 0 auto;
+}
+#mi{
+    display: inline-block;
+    color: rgb(94, 94, 94);
+    font-size: 17px;
+    margin-left: 400px;
+    margin-right: 350px;
+}
+#SO{
+    padding: 10px;
+    color: rgba(94, 94, 94, 0.952);
+    border: 1px solid rgba(104, 104, 104, 0.514);
+}
+#SFP{
+    padding: 10px;
+    color: rgba(94, 94, 94, 0.507);
+    border: 1px solid rgba(104, 104, 104, 0.13);
+    display: block;
+}
+#products{
+    width: 230px;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.contact {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.contact h1 {
+    text-align: center;
+    color: red;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.contact-form, .contact-details {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-form h2 {
+    color: red;
+}
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: darkred;
+}
+.contact-details p {
+    margin-top: 0;
+}
+.contact-details a {
+    color: red;
+    text-decoration: none;
+}
+.contact-details a:hover {
+    text-decoration: underline;
+}
